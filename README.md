@@ -87,4 +87,6 @@ The results showed that after applying our defense strategy, the fraud detection
 
 This research proves the effectiveness of anomaly detection and relabeling strategies in mitigating data poisoning attacks in fraud detection systems.
 
+![finalobservation](final1.png)
+![finalobservationROC](finalroc.png)
 
