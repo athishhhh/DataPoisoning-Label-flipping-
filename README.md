@@ -40,10 +40,10 @@ Machine learning models, especially in **fraud detection**, are vulnerable to **
 A Label Flipping Attack is a type of data poisoning attack where the attacker intentionally mislabels a subset of the training data to degrade the model’s performance.
 
  How the Attack Works
-1️⃣ Select a percentage of fraud samples (e.g., 30%)
-2️⃣ Flip their labels from fraud (1) to non-fraud (0)
-3️⃣ Train the fraud detection model on poisoned data
-4️⃣ Evaluate the model and observe the performance drop
+1️. Select a percentage of fraud samples (e.g., 30%)
+2️. Flip their labels from fraud (1) to non-fraud (0)
+3️. Train the fraud detection model on poisoned data
+4️. Evaluate the model and observe the performance drop
 
 # Expected Impact of the Attack
 The fraud detection rate decreases because the model learns incorrect patterns.
@@ -53,10 +53,7 @@ The number of missed fraud cases (False Negatives) increases, making fraudsters 
 The accuracy might remain high due to data imbalance, but fraud detection effectiveness suffers significantly.
 
  Before vs. After Poisoning (Expected Results)
-Metric	Before Poisoning	After Poisoning
-Accuracy	99.96%	99.91% ⬇️
-Fraud Detection Rate	77%	19.6% ⬇️
-False Negatives	22	41 ⬆️
+![Poisoning table](attack.png)
 
 
 
