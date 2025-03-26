@@ -54,7 +54,7 @@ The accuracy might remain high due to data imbalance, but fraud detection effect
 
  Before vs. After Poisoning (Expected Results)
 ![Poisoning table](image.png)
-![before](afterpoisoingconfusionmat.png)
+![before](beforepoisioning.png)
 ![confafter](afterpoisoingconfusionmat.png)
 
 
