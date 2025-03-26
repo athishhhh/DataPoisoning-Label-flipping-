@@ -72,3 +72,5 @@ Poisoned samples are reclassified to their original fraud labels, reversing the 
 A robust fraud detection model is trained on the corrected dataset, ensuring that the model learns accurate fraud patterns.
 The model is then evaluated to confirm its resistance to future poisoning attacks.
 ![tablefordefence](tableafterdefence.png)
+![beforedefcon](beforedefence.png)
+![afterdefcon](afterdefence.png)
