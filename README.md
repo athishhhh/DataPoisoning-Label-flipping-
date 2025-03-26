@@ -57,5 +57,18 @@ The accuracy might remain high due to data imbalance, but fraud detection effect
 ![before](beforepoisioning.png)
 ![confafter](afterpoisoingconfusionmat.png)
 
+## Defense System Implementation
+To counteract this attack, we implement a three-step defense mechanism:
 
+✅ Step 1: Detect Poisoned Data
+Anomaly detection is applied using Isolation Forest, which identifies fraudulent transactions that have been mislabeled.
+Transactions with unusual fraud characteristics are flagged as potentially poisoned.
 
+✅ Step 2: Correct Mislabeled Transactions
+A secondary fraud detection model is trained on a clean dataset to predict the correct labels for flagged transactions.
+Poisoned samples are reclassified to their original fraud labels, reversing the attack's impact.
+
+✅ Step 3: Retrain the Final Fraud Detection Model
+A robust fraud detection model is trained on the corrected dataset, ensuring that the model learns accurate fraud patterns.
+The model is then evaluated to confirm its resistance to future poisoning attacks.
+![tablefordefence](tableafterdefence.png)
