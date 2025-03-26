@@ -33,7 +33,7 @@ Machine learning models, especially in **fraud detection**, are vulnerable to **
 ## Model Architecture  
 
 ### **End-to-End Workflow for Fraud Detection Defense System**  
-![Model Architecture](image.png)
+![Model Architecture](Control-V.png)
 
 
 ##Label Flipping Attack Implementation
@@ -53,7 +53,7 @@ The number of missed fraud cases (False Negatives) increases, making fraudsters 
 The accuracy might remain high due to data imbalance, but fraud detection effectiveness suffers significantly.
 
  Before vs. After Poisoning (Expected Results)
-![Poisoning table](attack.png)
+![Poisoning table](image.png)
 
 
 
