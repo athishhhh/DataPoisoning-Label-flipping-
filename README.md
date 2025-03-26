@@ -5,10 +5,13 @@ Detecting and preventing data poisoning in fraud detection using Label Flipping 
 
 ->Data Poisoning Threat
 Fraud detection models are exposed to data poisoning, leading to misclassification.
+
 ->Misclassification Impact
 Increased fraudulent transactions are incorrectly classified as legitimate, worsening fraud cases.
+
 ->Label Flipping Attack
 Implementing a label flipping attack on the fraud detection dataset to evaluate vulnerabilities.
+
 ->Detection Mechanism Development
 Developing mechanisms to detect and identify poisoned data within the dataset.
 
