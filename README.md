@@ -1,4 +1,4 @@
-# DataPoisoning-Label-flipping-
+# DataPoisoning-Label-flipping
 Detecting and preventing data poisoning in fraud detection using Label Flipping Attack defense.
 
 #  Fraud Detection Vulnerabilities
