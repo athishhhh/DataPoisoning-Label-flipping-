@@ -30,8 +30,8 @@ Machine learning models, especially in **fraud detection**, are vulnerable to **
 
 ---
 
-## 🏗 Model Architecture  
+## Model Architecture  
 
 ### **End-to-End Workflow for Fraud Detection Defense System**  
-![Model Architecture](results/image.png)
+![Model Architecture](image.png)
 
