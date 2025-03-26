@@ -74,3 +74,17 @@ The model is then evaluated to confirm its resistance to future poisoning attack
 ![tablefordefence](tableafterdefence.png)
 ![beforedefcon](beforedefence.png)
 ![afterdefcon](afterdefence.png)
+
+##  Conclusion
+In this project, we demonstrated how data poisoning attacks, specifically the Label Flipping Attack, can severely impact fraud detection models by misleading them into learning incorrect patterns. By flipping fraud labels to non-fraud, the attack reduced the fraud detection rate and increased false negatives, making it easier for fraudulent transactions to go undetected.
+
+To counter this, we implemented a defense mechanism that:
+✔ Detects poisoned transactions using Isolation Forest.
+✔ Corrects mislabeled fraud cases using a secondary clean model.
+✔ Retrains the fraud detection model on a cleaned dataset to restore accuracy.
+
+The results showed that after applying our defense strategy, the fraud detection rate improved significantly, and the model was successfully restored to its original performance.
+
+This research proves the effectiveness of anomaly detection and relabeling strategies in mitigating data poisoning attacks in fraud detection systems.
+
+
